@@ -1,0 +1,29 @@
+#deposit_plans:
+deposit_plans:
+  - customerRefCode: SA123
+    depositPlanType: OneTime
+    PortfoliosFundAllocation:
+      HighRisk: 10000
+      Retirment: 500
+    FundDeposit: 10500
+
+  - customerRefCode: SA123
+    depositPlanType: Monthly
+    PortfoliosFundAllocation:
+      HighRisk: 0
+      Retirment: 100
+    FundDeposit: 100
+
+  - customerRefCode: SA123
+    depositPlanType: Monthly
+    PortfoliosFundAllocation:
+      HighRisk: 0
+      Retirment: 100
+    FundDeposit: 200
+
+  - customerRefCode: SA123
+    depositPlanType: Monthly
+    PortfoliosFundAllocation:
+      HighRisk: 0
+      Retirment: 100
+    FundDeposit: 50
